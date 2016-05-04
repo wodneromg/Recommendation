@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>消费者商品推荐模型</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    
+</head>
+<body>
+<section class="htmleaf-container">
+    <div class="landing-slider">
+
+        <!--tabSlider-->
+        <div class="tabSlider">
+            <div class="ts-items">
+
+                <!-- Single item0 -->
+                <div class="ts-item is-active">
+                    <div class="ts-banner"><img src="img/626.png" alt="alt goes here"/></div>
+                    <div class="ts-container set-layout thumb-cont">
+                        <div class="ts-thumbnail"><img src="img/model0.png" alt="alt"/></div>
+                        <div class="ts-middata">
+                            <div class="ts-middata-up">
+                                <h3 style="float:left; color: #fff;">某电商网站上4,5,6,7,8月份的用户数据</h3>
+                                <input class="btn btn-default" 
+                                style="float:right; margin:15px 200px 0 0;" type="button" value="浏览全部" id="allbtn0" />
+                                <h4 style="float:left; margin-left:-20px; color: #fff;">&nbsp;&nbsp;&nbsp;&nbsp;总共获取了182880条电商用户在4个月内的行为记录，包含4列数据，分别是用户ID、商品ID、行为类型、行为发生的日期。部分数据如下:</h4>
+                            </div>
+                            <div class="ts-middata-bottom">
+                                <table class="table table-bordered">
+                                    <tr>
+                                        <td class="active" id="alluser0">用户ID</td>
+                                        <td class="warning" id="allitem0">商品ID</td>
+                                        <td class="danger" id="alldone0">行为类型</td>
+                                        <td class="info" id="alldate0">发生日期</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="active" id="alluser0">用户ID</td>
+                                        <td class="warning" id="allitem0">商品ID</td>
+                                        <td class="danger" id="alldone0">行为类型</td>
+                                        <td class="info" id="alldate0">发生日期</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="active" id="alluser0">用户ID</td>
+                                        <td class="warning" id="allitem0">商品ID</td>
+                                        <td class="danger" id="alldone0">行为类型</td>
+                                        <td class="info" id="alldate0">发生日期</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="active" id="alluser0">用户ID</td>
+                                        <td class="warning" id="allitem0">商品ID</td>
+                                        <td class="danger" id="alldone0">行为类型</td>
+                                        <td class="info" id="alldate0">发生日期</td>
+                                    </tr><tr>
+                                        <td class="active" id="alluser0">用户ID</td>
+                                        <td class="warning" id="allitem0">商品ID</td>
+                                        <td class="danger" id="alldone0">行为类型</td>
+                                        <td class="info" id="alldate0">发生日期</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="active" id="alluser0">用户ID</td>
+                                        <td class="warning" id="allitem0">商品ID</td>
+                                        <td class="danger" id="alldone0">行为类型</td>
+                                        <td class="info" id="alldate0">发生日期</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="active" id="alluser0">用户ID</td>
+                                        <td class="warning" id="allitem0">商品ID</td>
+                                        <td class="danger" id="alldone0">行为类型</td>
+                                        <td class="info" id="alldate0">发生日期</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="active" id="alluser0">用户ID</td>
+                                        <td class="warning" id="allitem0">商品ID</td>
+                                        <td class="danger" id="alldone0">行为类型</td>
+                                        <td class="info" id="alldate0">发生日期</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="active" id="alluser0">用户ID</td>
+                                        <td class="warning" id="allitem0">商品ID</td>
+                                        <td class="danger" id="alldone0">行为类型</td>
+                                        <td class="info" id="alldate0">发生日期</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="active" id="alluser0">用户ID</td>
+                                        <td class="warning" id="allitem0">商品ID</td>
+                                        <td class="danger" id="alldone0">行为类型</td>
+                                        <td class="info" id="alldate0">发生日期</td>
+                                    </tr><tr>
+                                        <td class="active" id="alluser0">用户ID</td>
+                                        <td class="warning" id="allitem0">商品ID</td>
+                                        <td class="danger" id="alldone0">行为类型</td>
+                                        <td class="info" id="alldate0">发生日期</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="active" id="alluser0">用户ID</td>
+                                        <td class="warning" id="allitem0">商品ID</td>
+                                        <td class="danger" id="alldone0">行为类型</td>
+                                        <td class="info" id="alldate0">发生日期</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="active" id="alluser0">用户ID</td>
+                                        <td class="warning" id="allitem0">商品ID</td>
+                                        <td class="danger" id="alldone0">行为类型</td>
+                                        <td class="info" id="alldate0">发生日期</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="active" id="alluser0">用户ID</td>
+                                        <td class="warning" id="allitem0">商品ID</td>
+                                        <td class="danger" id="alldone0">行为类型</td>
+                                        <td class="info" id="alldate0">发生日期</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="active" id="alluser0">用户ID</td>
+                                        <td class="warning" id="allitem0">商品ID</td>
+                                        <td class="danger" id="alldone0">行为类型</td>
+                                        <td class="info" id="alldate0">发生日期</td>
+                                    </tr>
+
+                                </table>
+                                <table class="table table-bordered" id="alltable0">
+                                    <tr>
+                                        
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single item1 -->
+                <div class="ts-item">
+                    <div class="ts-banner"><img src="img/629.png" alt="alt goes here"/></div>
+                    <div class="ts-container set-layout thumb-cont">
+                        <div class="ts-thumbnail"><img src="img/model1.png" alt="alt"/></div>
+                        <div class="ts-middata">
+                            <div class="ts-middata-left">
+                                <div class="ts-middata-l-up" style="color: #000;">
+                                    <h2>购买及推荐模型介绍</h2>
+                                    <h4>人们在短时间内购买过的商品过一段时间也会购买同样的商品，基于这样的一个想法，用户前4个月购买过的商品可作为下个月推荐的商品。</h4>
+                                    <h4 style="float:left;">网站上4,5,6,7,8月份的用户数据</h4>
+                                    <input class="btn btn-default" 
+                                     type="button" value="浏览全部" id="allbtn1" />
+                                </div>
+                                <div class="ts-middata-l-bottom">
+                                    <table class="table table-bordered">
+                                        <tr>
+                                            <td class="active" id="alluser1">用户ID</td>
+                                            <td class="warning" id="allitem1">商品ID</td>
+                                            <td class="danger" id="alldone1">行为类型</td>
+                                            <td class="info" id="alldate1">发生日期</td>
+                                        </tr>
+                                    </table>
+                                    <table class="table table-bordered" id="alltable1">
+                                        <tr>
+                                        
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="ts-middata-right">
+                                <div class="ts-middata-r-up"style="color: #000;">
+                                    <div style="float:left;">
+                                        <h2>购买即推荐模型推荐数据</h2>
+                                        <h4>输入消费的月份</h4>
+                                        <h4>请输入4,5,6,7,8中的一个或多个数字，多个用"，"隔开</h4>
+                                    </div>
+                                    <div>
+                                        <div style="float:left; margin:2px 0 0 0; width=260px;">
+                                           <input class="form-control"
+                                             type="text" placeholder="4,5,6,7,8的一个或多个">
+                                        </div>
+                                        <div style="float:right; margin:2px 140px 0 0;">
+                                            <input class="btn btn-default" type="button" value="生成推荐" id="modelonebtn" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ts-middata-r-bottom">
+                                    <table class="table table-bordered">
+                                        <tr>
+                                            <td class="warning" id="modeluserone">用户ID</td>
+                                            <td class="danger" id="modelitemone">商品ID</td>
+                                        </tr>
+                                    </table>
+                                    <table class="table table-bordered" id="modeltableone">
+                                        <tr>
+                                            
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single item2 -->
+                <div class="ts-item">
+                    <div class="ts-banner"><img src="img/627.png" alt="alt goes here"/></div>
+                    <div class="ts-container set-layout thumb-cont">
+                        <div class="ts-thumbnail"><img src="img/model2.png" alt="alt"/></div>
+                        <div class="ts-middata">
+                            <div class="ts-middata-left">
+                                <div class="ts-middata-l-up"style="color: #000;">
+                                    <h2>前三个月购买，后一个月只有点击</h2>
+                                    <h4>统计前三个月时间里，用户对某样商品有购买行为，而在最后一个月内的时间内对该商品只有点击行为，如果符合这两个条件，将该商品推荐给这个用户。</h4>
+                                    <h4 style="float:left;">网站上4,5,6,7,8月份的用户数据</h4>
+                                    <input class="btn btn-default" 
+                                     type="button" value="浏览全部" id="allbtn2" />
+                                </div>
+                                <div class="ts-middata-l-bottom">
+                                    <table class="table table-bordered">
+                                        <tr>
+                                            <td class="active" id="alluser2">用户ID</td>
+                                            <td class="warning" id="allitem2">商品ID</td>
+                                            <td class="danger" id="alldone2">行为类型</td>
+                                            <td class="info" id="alldate2">发生日期</td>
+                                        </tr>
+                                    </table>
+                                    <table class="table table-bordered" id="alltable2">
+                                        <tr>
+                                        
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="ts-middata-right">
+                                <div class="ts-middata-r-up"style="color: #000;">
+                                    <div style="float:left;">
+                                        <h2>前三个月购买，后一个月只有点击模型</h2>
+                                    </div>
+                                    <div>
+                                        <div style="float:left; margin:0px 0 0 0; width=260px;">
+                                           <h4>模型推荐数据生成</h4>
+                                        </div>
+                                        <div style="float:right; margin:0px 160px 0 0;">
+                                            <input class="btn btn-default" type="button" value="生成推荐" id="modeltwobtn" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ts-middata-r-bottom">
+                                    <table class="table table-bordered">
+                                        <tr>
+                                            <td class="warning" id="modelusertwo">用户ID</td>
+                                            <td class="danger" id="modelitemtwo">商品ID</td>
+                                        </tr>
+                                    </table>
+                                    <table class="table table-bordered" id="modeltabletwo">
+                                        <tr>
+                                            
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Single item3 -->
+                <div class="ts-item">
+                    <div class="ts-banner"><img src="img/6210.png" alt="alt goes here"/></div>
+                    <div class="ts-container set-layout thumb-cont">
+                        <div class="ts-thumbnail"><img src="img/model3.png" alt="alt"/></div>
+                        <div class="ts-middata">
+                            <div class="ts-middata-left">
+                                <div class="ts-middata-l-up"style="color: #fff;">
+                                    <h2>最近k天对品牌有操作，将品牌推荐</h2>
+                                    <h4>如果用户在最近的几天内对一个商品发生某个行为，如购买、点击、收藏、放进购物车4种行为的其中一种，用户很可能会购买这个商品。</h4>
+                                    <h4 style="float:left;">网站上4,5,6,7,8月份的用户数据</h4>
+                                    <input class="btn btn-default" 
+                                     type="button" value="浏览全部" id="allbtn3" />
+                                </div>
+                                <div class="ts-middata-l-bottom">
+                                    <table class="table table-bordered">
+                                        <tr>
+                                            <td class="active" id="alluser3">用户ID</td>
+                                            <td class="warning" id="allitem3">商品ID</td>
+                                            <td class="danger" id="alldone3">行为类型</td>
+                                            <td class="info" id="alldate3">发生日期</td>
+                                        </tr>
+                                    </table>
+                                    <table class="table table-bordered" id="alltable3">
+                                        <tr>
+                                        
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="ts-middata-right">
+                                <div class="ts-middata-r-up"style="color: #fff;">
+                                    <div style="float:left;">
+                                        <h2>最近k天对品牌有操作，将此品牌推荐      数据生成</h2>
+                                        <h4>输入k值，即最近k天</h4>
+                                    </div>
+                                    <div>
+                                        <div style="float:left; margin:0px 0 0 0; width=260px;">
+                                           <input class="form-control"
+                                             type="text" placeholder="输入1-15的数字"> 
+                                        </div>
+                                        <div style="float:right; margin:0px 140px 0 0;">
+                                            <input class="btn btn-default" type="button" value="生成推荐" id="modelthreebtn" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ts-middata-r-bottom">
+                                    <table class="table table-bordered">
+                                        <tr>
+                                            <td class="warning" id="modeluserthree">用户ID</td>
+                                            <td class="danger" id="modelitemthree">商品ID</td>
+                                        </tr>
+                                    </table>
+                                    <table class="table table-bordered" id="modeltablethree">
+                                        <tr>
+                                            
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single item4 -->
+                <div class="ts-item">
+                    <div class="ts-banner"><img src="img/6211.png" alt="alt goes here"/></div>
+                    <div class="ts-container set-layout thumb-cont">
+                        <div class="ts-thumbnail"><img src="img/model4.png" alt="alt"/></div>
+                        <div class="ts-middata">
+                            <div class="ts-middata-left">
+                                <div class="ts-middata-l-up"style="color: #fff;">
+                                    <h2>对某商品连续操作n次以上推荐</h2>
+                                    <h4>如果用户对某个商品感兴趣，他会不断地对这个商品进行相关操作，当操作次数达到一定量时，该用户购买该商品的可能性十分大。</h4>
+                                    <h4 style="float:left;">网站上4,5,6,7,8月份的用户数据</h4>
+                                    <input class="btn btn-default" 
+                                     type="button" value="浏览全部" id="allbtn4" />
+                                </div>
+                                <div class="ts-middata-l-bottom">
+                                    <table class="table table-bordered">
+                                        <tr>
+                                            <td class="active" id="alluser3">用户ID</td>
+                                            <td class="warning" id="allitem3">商品ID</td>
+                                            <td class="danger" id="alldone3">行为类型</td>
+                                            <td class="info" id="alldate3">发生日期</td>
+                                        </tr>
+                                    </table>
+                                    <table class="table table-bordered" id="alltable4">
+                                        <tr>
+                                        
+                                        </tr>
+                                    </table>
+                                    <table class="table table-bordered" id="modeltablefour">
+                                        <tr>
+                                            
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="ts-middata-right">
+                                <div class="ts-middata-r-up"style="color: #fff;">
+                                    <div style="float:left;">
+                                        <h2>对某商品连续操作n次以上推荐         <br>模型数据生成</h2>
+                                        <h4>输入操作次数</h4>
+                                    </div>
+                                    <div>
+                                        <div style="float:left; margin:0px 0 0 0; width=260px;">
+                                           <input class="form-control"
+                                             type="text" placeholder="输入1-100的数字"> 
+                                        </div>
+                                        <div style="float:right; margin:0px 140px 0 0;">
+                                            <input class="btn btn-default" type="button" value="生成推荐" id="modelfourbtn" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ts-middata-r-bottom">
+                                    <table class="table table-bordered">
+                                        <tr>
+                                            <td class="warning" id="modeluserfour">用户ID</td>
+                                            <td class="danger" id="modelitemfour">商品ID</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single item5 -->
+                <div class="ts-item">
+                    <div class="ts-banner"><img src="img/627.png" alt="alt goes here"/></div>
+                    <div class="ts-container set-layout thumb-cont">
+                        <div class="ts-thumbnail"><img src="img/model5.png" alt="alt"/></div>
+                        <div class="ts-middata">
+                            <div class="ts-middata-left">
+                                <div class="ts-middata-l-up"style="color: #000;">
+                                    <h2>基于时间权重的推荐模型介绍</h2>
+                                    <h4>基于时间权重，简单来讲就是对点击、购买、收藏和购物车行为采取一定的评分规则后再按照时间越近权重越大，总权重大于W的商品即推荐。</h4>
+                                    <h4 style="float:left;">网站上4,5,6,7,8月份的用户数据</h4>
+                                    <input class="btn btn-default" 
+                                     type="button" value="浏览全部" id="allbtn5" />
+                                </div>
+                                <div class="ts-middata-l-bottom">
+                                    <table class="table table-bordered">
+                                        <tr>
+                                            <td class="active" id="alluser5">用户ID</td>
+                                            <td class="warning" id="allitem5">商品ID</td>
+                                            <td class="danger" id="alldone5">行为类型</td>
+                                            <td class="info" id="alldate5">发生日期</td>
+                                        </tr>
+                                    </table>
+                                    <table class="table table-bordered" id="alltable5">
+                                        <tr>
+                                        
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="ts-middata-right">
+                                <div class="ts-middata-r-up"style="color: #000;">
+                                    <div style="float:left;">
+                                        <h2>基于时间权重的模型推荐数据生成</h2>
+                                        <h4>输入时间间隔的天数</h4>
+                                    </div>
+                                    <div>
+                                        <div style="float:left; margin:5px 0 0 0; width=260px;">
+                                           <input class="form-control"
+                                             type="text" placeholder="输入1-30任意数字"> 
+                                        </div>
+                                        <div style="float:right; margin:5px 140px 0 0;">
+                                            <input class="btn btn-default" type="button" value="生成推荐" id="modelfivebtn" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ts-middata-r-bottom">
+                                    <table class="table table-bordered">
+                                        <tr>
+                                            <td class="warning" id="modeluserfive">用户ID</td>
+                                            <td class="danger" id="modelitemfive">商品ID</td>
+                                        </tr>
+                                    </table>
+                                    <table class="table table-bordered" id="modeltablefive">
+                                        <tr>
+                                            
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="ts-control">
+                <div class="ts-container">
+                    <ul>
+                        <li class="is-active"><i class="ts-icon auto"></i> <span>消费数据</span></li>
+                        <li><i class="ts-icon medical"></i> <span>推荐模型1</span></li>
+                        <li><i class="ts-icon food"></i> <span>推荐模型2</span></li>
+                        <li><i class="ts-icon medical"></i> <span>推荐模型3</span></li>
+                        <li><i class="ts-icon food"></i> <span>推荐模型4</span></li>
+                        <li><i class="ts-icon medical"></i> <span>推荐模型5</span></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!--/tabSlider-->
+    </div>
+</section>
+
+<script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(function () {
+        $('a').on('click', function () {
+            return false;
+        });
+
+        // set item banner
+        $('.ts-item').first().show();
+        $('.ts-item').each(function () {
+            var $this = $(this),
+                    _imgSrc = $this.find('.ts-banner img').attr('src');
+
+            if (_imgSrc)
+                $this.css('background-image', 'url(' + _imgSrc + ')');
+                $this.css('background-attachment', 'fixed');
+        });
+
+        $('.ts-control li').on('click', function () {
+            var $this = $(this),
+                    _index = $this.index();
+
+            $("li.is-active").removeClass("is-active");
+            $(this).addClass("is-active");
+
+            $('.ts-item.is-active').removeClass('is-active').fadeOut();
+            $('.ts-item').eq(_index).addClass('is-active').fadeIn();
+
+            return false;
+        });
+
+        var ww = $(window).width();
+    });
+</script>
+
+<!-- <div style="text-align:center;clear:both">
+    <script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
+    <script src="/follow.js" type="text/javascript"></script>
+</div> -->
+</body>
+</html>
